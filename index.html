@@ -1,5 +1,46 @@
-<html>
-  <body>
-    Hi from Git actions
-  <body>
- </html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Mike Pieters</title>
+  <meta name="description" content="Mike Pieters">
+  <meta name="author" content="Mike Pieters">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+         $("#contact-button").click(function(){
+             $("#content").load("activities.html");
+         });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a id="contact-button" href="#">Contact</a>
+  </nav>
+  <main>
+
+
+  <div class="content-wrapper">
+      <div id="content">
+        This is the main page
+      </div>
+    </main>
+
+
+    <footer>
+ 
+    </footer>
+
+  </div>
+</body>
+</html>
