@@ -13,32 +13,35 @@
 
   <script type="text/javascript">
     $(document).ready(function(){
+        // When loading website 
+         $("main").load("home.html");
+        //When user clicks on home
+         $("#home-button").click(function(){
+             $("main").load("home.html");
+         });
+        //When user clicks on contact
          $("#contact-button").click(function(){
-             $("#content").load("contact.html");
+             $("main").load("contact.html");
          });
     });
   </script>
-
 </head>
 
 <body>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a id="contact-button" href="#">Contact</a>
-  </nav>
-  <main>
-
-
   <div class="content-wrapper">
-      <div id="content">
-        Ik hou van Gonda
+    <header>
+      <div id="header-wrapper">
+        <img src="img/profile_picture.jpg" alt="Profile Picture" height=150px>
+        <h1>M.J.F. Pieters</h1>
       </div>
+    </header>
+    <nav>
+      <a id="home-button" href="#">Home</a>
+      <a id="contact-button" href="#">Contact</a>
+    </nav>
+    <main>
     </main>
-
-
     <footer>
- 
     </footer>
 
   </div>
