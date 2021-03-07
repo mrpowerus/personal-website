@@ -1,5 +1,5 @@
 html{
-  background: rgb(206, 206, 206);
+  background: rgb(224, 224, 224);
 }
 
 body{
@@ -18,10 +18,12 @@ body{
 }
 
 nav {
+  clear: both;
   background-color: #333;
   overflow: hidden;
   position: sticky;
   top: 0px;
+  display:block;
 }
 
 /* Style the links inside the navigation bar */
@@ -47,14 +49,17 @@ nav a.active {
   color: white;
 }
 
-#header-wrapper img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10%;
+
+header{
+position: relative;
+margin-bottom: -4px;
 }
 
-#header-wrapper{
-  text-align: center;
+
+header span{
+  bottom: 10px;
+  font-size: larger;
+  position: absolute;
+  font-style: italic;
 }
 
