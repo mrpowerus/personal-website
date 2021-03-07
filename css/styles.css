@@ -11,10 +11,9 @@ body{
 .content-wrapper {
   margin-right: auto;
   margin-left:  auto;
-  max-width: 960px;
-  padding-right: 40px;
-  padding-left:  40px;
-  padding-top: 40px;
+  width: 90vw;
+  max-width: 1000px;
+ 
 }
 
 nav {
@@ -30,11 +29,14 @@ nav {
 nav a {
   float: left;
   color: #f2f2f2;
-  padding: 1vw;
   width: 10vw;
+  min-width: 100px;
+  padding: 0.5em 0 0.5em 0;
+ 
   text-decoration: none;
   text-align: center;
   font-size: 16pt;
+
 }
 
 /* Change the color of links on hover */
