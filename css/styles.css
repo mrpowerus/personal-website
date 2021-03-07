@@ -1,5 +1,5 @@
 html{
-  background: rgb(224, 224, 224);
+  background: rgba(224, 224, 224);
 }
 
 body{
@@ -30,11 +30,11 @@ nav {
 nav a {
   float: left;
   color: #f2f2f2;
-  padding: 0.5em;
-  width: 5em;
+  padding: 1vw;
+  width: 10vw;
   text-decoration: none;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 16pt;
 }
 
 /* Change the color of links on hover */
