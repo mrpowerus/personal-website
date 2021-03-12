@@ -64,13 +64,11 @@ header span{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-
+@media (max-width: 768px) {
   nav a {
     width: 100%;
     border-bottom: 1px solid white;
+    font-size: 14pt;
   }
-  
 }
 
