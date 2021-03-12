@@ -3,41 +3,44 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>Mike Pieters</title>
   <meta name="description" content="Mike Pieters">
   <meta name="author" content="Mike Pieters">
   <link rel="stylesheet" href="css/styles.css">
-
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-        // When loading website 
-         $("main").load("home.html");
-        //When user clicks on home
-         $("#home-button").click(function(){
-             $("main").load("home.html");
-         });
-        //When user clicks on contact
-         $("#contact-button").click(function(){
-             $("main").load("contact.html");
-         });
-    });
-  </script>
 </head>
 
 <body>
   <div class="content-wrapper">
     <header>
-        <img src="img/profile_picture.png" alt="Profile Picture" height=150vw>
+        <img id='profile-image' src="img/profile_picture.png" alt="Profile Picture" height=150vw>
         <span>M.J.F. Pieters</span>
     </header>
     <nav>
-      <a id="home-button" href="#">Home</a>
-      <a id="contact-button" href="#">Contact</a>
+      <a id="home-button" href="./index.html">Home</a>
+      <a id="contact-button" href="./contact.html">Contact</a>
     </nav>
     <main>
+      <h2>
+        Welkom
+       </h2>
+       <p>
+       Welkom op mijn persoonlijke website. 
+       Deze website dient vooral als mijn persoonlijke plek op het internet. 
+       Ik ben een IT'er met een passie voor zo eenvoudig mogelijke oplossingen, die de klus op een zo eenvoudige en stabiele manier klaren. 
+       Deze website is ook een ode aan het oude web, waar je met standaard HTML en CSS een nuttige website in elkaar kon zetten. 
+       Het huidge web lijkt soms aan obesitas te lijden met zijn overload aan cookies, scripts, pop-ups en advertenties. Welkom op deze oase van rust en reinheid. U zijt welkom! 
+       </p>
+       
+          
+       <h2>Over mij</h2>
+       <p>
+       Op dit moment vervul in de rol van DevOps (Data) Engineer bij ARAG Rechtsbijstand. 
+       We zijn bezig met het opzetten van een nieuw data-platform in de (Azure) cloud binnen ons eigen Datahub Team.
+       Binnen dit team ben ik verantwoordelijk voor het opzetten het data-integratie platform. Ik vind dit een erg mooie rol waar ik mijn liefde voor IT helemaal in kwijt kan. 
+       Ik werk tijdens de bouw van dit platform met tools als <i>Terraform</i>, <i>Kubernetes</i>, <i>Docker</i>, <i>Azure Devops</i> en <i>Hadoop</i>.
+       </p>
+       
     </main>
     <footer>
     </footer>
