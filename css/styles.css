@@ -1,10 +1,8 @@
-html{
-  background: rgba(224, 224, 224);
-}
 
 body{
   margin: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgba(224, 224, 224);
 
 }
 
@@ -12,14 +10,12 @@ body{
   margin-right: auto;
   margin-left:  auto;
   width: 90vw;
- 
 }
 
 nav {
   clear: both;
   background-color: #333;
   overflow: hidden;
-  position: sticky;
   top: 0px;
   display:block;
 }
